@@ -1,0 +1,101 @@
+*. *::before. *::after {
+	box-sizing: border-box;
+}
+
+.adjacent {
+	display: inline-block;
+}
+
+.toplayer {
+	width:100%;
+	background-image: url(../images/skyline.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	position:relative;
+}
+
+
+.logo {
+	border-radius: 50%;
+	max-width: 4rem;
+	position:absolute;
+	bottom:-20%;
+	left:20%;
+	border: 2px solid white;
+}
+
+h5 {
+	text-align: left;
+	font-family: sans-serif;
+	opacity:0.8;
+}
+
+h5 + p {
+	opacity:0.6;
+}
+
+h6 {
+	text-align: left;
+	font-family: sans-serif;
+	opacity:0.6;
+}
+
+input {
+	opacity:0.5;
+}
+
+div p {
+	font-size: .75em;
+}
+
+h2 {
+	padding-left: 1em;
+	font-family: sans-serif;
+}
+
+h2 + p {
+	padding-left: 2em;
+	font-style: italic;
+}
+
+.content {
+	width:55%;
+	padding-left: 2em;
+}
+
+#body {
+	width:80%;
+	min-height: 500px;
+	/*background-color: #eee;*/
+	float:left;
+}
+
+#sidebar {
+	width:20%;
+	min-height: 500px;
+	/*background-color: #ccc;*/
+	float:left;
+}
+
+#search {
+	width:20%;
+}
+
+#content {
+	width:80%;
+}
+
+#floater {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	width: 15%;
+}
+
+.container {
+	overflow: auto;
+	max-width: 800px;
+	margin: auto;
+	padding-top: 2rem;
+}
